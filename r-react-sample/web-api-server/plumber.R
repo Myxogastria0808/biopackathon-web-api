@@ -15,7 +15,6 @@ library(plumber)
 # Tag Description
 #* @apiTag loadings "Biopackathon Web API Sample"
 
-z
 #* @filter cors
 cors <- function(req, res) {
     res$setHeader("Access-Control-Allow-Origin", "*")
